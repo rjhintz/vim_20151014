@@ -98,11 +98,36 @@ Creating alias default for ruby-2.2.1...
 get_ruby_version:1: command not found: ruby        
 ```
 
-`source ~/.rvm/scripts/rvm`
+`source ~/.rvm/scripts/rvm`  <--add this to zsch config
 ##20151015
 `cp ~/ProVim/.vimrc ~/.vimrc`
+```
+○ vim
+Error detected while processing /home/rjhintz/.vimrc:
+line  119:
+E117: Unknown function: pathogen#infect
+E15: Invalid expression: pathogen#infect()
+line  124:
+E185: Cannot find color scheme 'Tomorrow-Night'
+Press ENTER or type command to continue
+```
+[Install Pathogen package manager](http://www.vim.org/scripts/script.php?script_id=2332)
+```
+mkdir -p ~/.vim/autoload ~/.vim/bundle 
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+```
 
+Comment out (using '#') color theme in line 124
 
+Add to top of `.vimrc`
+```
+set runtimepath+=~/.vim/config
+runtime basic.vim
+runtime plugins.vim
+runtime bindings.vim
+```
+
+Stray characters appear and movement through the file doesn't work as expected.
 
 --------------------------
 ##References
