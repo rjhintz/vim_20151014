@@ -1,4 +1,5 @@
 # vim_20151014
+##20151014
 Add ons for VIM
 * install zsch
 * get .zshrc from (https://github.com/Integralist/ProVim/blob/master/.zshrc)
@@ -96,4 +97,14 @@ Creating alias default for ruby-2.2.1...
     in all your open shell windows, in rare cases you need to reopen all shell windows.
 get_ruby_version:1: command not found: ruby        
 ```
+
+`source ~/.rvm/scripts/rvm`
+##20151015
+`cp ~/ProVim/.vimrc ~/.vimrc`
+
+
+
+--------------------------
+##References
+[Pro Vim](https://www.safaribooksonline.com/library/view/pro-vim/9781484202500/)
 
