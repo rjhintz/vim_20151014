@@ -1,5 +1,17 @@
-# vim_20151014
-##20151014
+# Vim Lab
+
+## Plug In Manager
+### Vundle
+[Vundle](https://github.com/VundleVim/Vundle.vim)
+## Status Line
+### Airline
+[Airline](https://github.com/vim-airline/vim-airline)
+#### How to Configure
+* [How to configure to look like screenshot](http://vi.stackexchange.com/questions/5622/how-to-configure-vim-airline-plugin-to-look-like-its-own-project-screenshot)
+* Help `:h airline`
+
+### Old / Deprecated
+#### 20151014
 Add ons for VIM
 * install zsch
 * get .zshrc from (https://github.com/Integralist/ProVim/blob/master/.zshrc)
