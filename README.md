@@ -27,6 +27,9 @@ vim-airline doesn't appear until I create a new split
     Add set laststatus=2 to your vimrc
 ```
 
+## Tabbing
+### Supertab
+[ervandew/supertab](https://github.com/ervandew/supertab)
 
 ### Old / Deprecated
 #### 20151014
