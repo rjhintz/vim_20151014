@@ -1,14 +1,32 @@
 # Vim Lab
+## Tips
+*  `q:` command line history
+*  `:verbose` display where a value was last set. Ex: `:verbose set history`
+*  Get `solarized light` by using `set background light` and `let g:airline_theme='solarized'`
 
 ## Plug In Manager
 ### Vundle
 [Vundle](https://github.com/VundleVim/Vundle.vim)
+
 ## Status Line
 ### Airline
 [Airline](https://github.com/vim-airline/vim-airline)
+
 #### How to Configure
 * [How to configure to look like screenshot](http://vi.stackexchange.com/questions/5622/how-to-configure-vim-airline-plugin-to-look-like-its-own-project-screenshot)
 * Help `:h airline`
+
+```
+:verbose set statusline
+statusline=%!airline#statusline(1)
+        Last set from ~/.vim/bundle/vim-airline/autoload/airline.vim
+```
+
+```
+vim-airline doesn't appear until I create a new split
+    Add set laststatus=2 to your vimrc
+```
+
 
 ### Old / Deprecated
 #### 20151014
