@@ -37,7 +37,7 @@ Add ons for VIM
 * install zsch
 * get .zshrc from (https://github.com/Integralist/ProVim/blob/master/.zshrc)
 * Change shell `chsh -s /bin/zsh`
-* Restart so that new sheel is effective
+* Restart so that new shell is effective
 * Ruby not installed
 * Install RVM. See (https://rvm.io/rvm/install)
 * Install RVM stable with Ruby `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
@@ -54,9 +54,9 @@ gpg: key D39DC0E3: public key "Michal Papis (RVM signing) <mpapis@gmail.com>" im
 gpg: no ultimately trusted keys found
 gpg: Total number processed: 1
 gpg:               imported: 1  (RSA: 1)
-get_ruby_version:1: command not found: ruby                                  
+get_ruby_version:1: command not found: ruby
 
-M. ~ 
+M. ~
 ○ \curl -sSL https://get.rvm.io | bash -s stable --ruby
 ]1; rjhintz: Downloading https://github.com/rvm/rvm/archive/1.26.11.tar.gz
 Downloading https://github.com/rvm/rvm/releases/download/1.26.11/1.26.11.tar.gz.asc
@@ -90,7 +90,7 @@ No binary rubies available for: ubuntu/15.04/x86_64/ruby-2.2.1.
 Continuing with compilation. Please read 'rvm help mount' to get more information on binary rubies.
 Checking requirements for ubuntu.
 Installing requirements for ubuntu.
-Updating systemrjhintz password required for 'apt-get --quiet --yes update': 
+Updating systemrjhintz password required for 'apt-get --quiet --yes update':
 ............
 Installing required packages: gawk, libreadline6-dev, zlib1g-dev, libssl-dev, libyaml-dev, libsqlite3-dev, sqlite3, autoconf, libgdbm-dev, libncurses5-dev, automake, libtool, bison, libffi-dev...............
 Requirements installation successful.
@@ -122,13 +122,13 @@ ruby-2.2.1 - #gemset created /home/rjhintz/.rvm/gems/ruby-2.2.1
 ruby-2.2.1 - #importing gemsetfile /home/rjhintz/.rvm/gemsets/default.gems evaluated to empty gem list
 ruby-2.2.1 - #generating default wrappers........
 ruby-2.2.1 - #adjusting #shebangs for (gem irb erb ri rdoc testrb rake).
-Install of ruby-2.2.1 - #complete 
+Install of ruby-2.2.1 - #complete
 Ruby was built without documentation, to build it run: rvm docs generate-ri
 Creating alias default for ruby-2.2.1...
 
   * To start using RVM you need to run `source /home/rjhintz/.rvm/scripts/rvm`
     in all your open shell windows, in rare cases you need to reopen all shell windows.
-get_ruby_version:1: command not found: ruby        
+get_ruby_version:1: command not found: ruby
 ```
 
 `source ~/.rvm/scripts/rvm`  <--add this to zsch config
@@ -165,4 +165,3 @@ Stray characters appear and movement through the file doesn't work as expected.
 --------------------------
 ##References
 [Pro Vim](https://www.safaribooksonline.com/library/view/pro-vim/9781484202500/)
-
